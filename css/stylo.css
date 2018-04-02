@@ -1,0 +1,139 @@
+.general{
+	display: flex;
+	overflow-x:hidden;
+}
+.sidebar_menu{
+    min-height: 100%;
+    background: #9ebdc2;    
+    float: left;
+    z-index: 1019;
+    height: calc(99vh - 55px);
+}
+.contenido{
+
+}
+.main{
+	    margin-right: 0;
+	    flex: 1;
+    min-width: 0;
+}
+
+.breadcrumb {
+   display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1.5rem;
+    list-style: none;
+    background-color: #fff;
+}
+.x-navigation {
+    background: #1b1e24;
+}
+.x-navigation, .x-navigation ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    list-style: none;
+    display: block;
+    z-index: 3;
+}
+.x-navigation > li.xn-profile {
+    padding: 0px;
+    border-bottom: 1px solid #14171b;
+}
+.x-navigation li {
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.x-navigation > li.xn-profile .profile-mini {
+    display: none;
+    width: 50px;
+    padding: 7px;
+}
+
+.x-navigation li > a {
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: 19px;
+    color: #8b91a0;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 15px 10px 15px 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #17191e;
+    vertical-align: text-bottom;
+}
+
+.x-navigation li {
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.x-navigation li.xn-openable:before {
+    position: absolute;
+    font-family: "FontAwesome";
+    content: "\f196";
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    right: 0px;
+    top: 12px;
+    cursor: pointer;
+}
+.x-navigation li > a .fa, .x-navigation li > a .glyphicon {
+    color: #8b91a0;
+    text-align: center;
+    width: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+    vertical-align: baseline;
+    -webkit-transition: color 200ms ease;
+    -moz-transition: color 200ms ease;
+    -ms-transition: color 200ms ease;
+    -o-transition: color 200ms ease;
+    transition: color 200ms ease;
+}
+.x-navigation > li.xn-openable:before {
+    top: 15px;
+}
+.profile .profile-image {
+    float: left;
+    width: 100%;
+    margin: 0px 0px 10px;
+    text-align: center;
+}
+.x-navigation li.active > a {
+    background: #1caf9a;
+    color: #fff;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.x-navigation li > a {
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: 19px;
+    color: #8b91a0;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 15px 10px 15px 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #17191e;
+    vertical-align: text-bottom;
+}
